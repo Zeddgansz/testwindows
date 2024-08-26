@@ -21,7 +21,7 @@ case "$PILIHOS" in
 esac
 
 echo "Password yang saya buat sudah masuk wordlist bruteforce, silahkan masukkan password yang lebih aman!"
-read -p "Masukkan password untuk akun Administrator (minimal 12 karakter): " PASSADMIN
+read -p "Masukkan password untuk akun Administrator (minimal 12 karakter): " adzanfauzan6
 
 IP4=$(curl -4 -s icanhazip.com)
 GW=$(ip route | awk '/default/ { print $3 }')
